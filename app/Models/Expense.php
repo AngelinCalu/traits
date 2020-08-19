@@ -2,12 +2,13 @@
 
 namespace App\Models;
 
+use App\Http\Traits\HasAttachments;
 use App\Http\Traits\UsesUuid;
 use Illuminate\Database\Eloquent\Model;
 
 class Expense extends Model
 {
-    use UsesUuid;
+    use UsesUuid, HasAttachments;
 
     protected $fillable = [
         'name',

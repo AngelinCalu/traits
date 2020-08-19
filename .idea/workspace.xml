@@ -142,21 +142,25 @@
       <recent name="C:\Users\angel\code\traits\app\Models" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ExpensesTest.a_user_can_create_an_expense">
+  <component name="RunManager" selected="PHPUnit.ExpensesTest">
     <configuration name="ExpensesTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ExpensesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExpensesTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="ExpensesTest.a_user_can_create_an_expense" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ExpensesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExpensesTest.php" method="a_user_can_create_an_expense" scope="Method" />
+    <configuration name="ExpensesTest.a_file_can_be_attached_on_expenses_creation" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExpensesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExpensesTest.php" method="a_file_can_be_attached_on_expenses_creation" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ExpensesTest.an_expense_requires_a_name" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ExpensesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExpensesTest.php" method="an_expense_requires_a_name" scope="Method" />
+    <configuration name="ExpensesTest.a_user_can_create_an_expense_without_an_attachment" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExpensesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExpensesTest.php" method="a_user_can_create_an_expense_without_an_attachment" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="ExpensesTest.an_expense_requires_an_amount" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ExpensesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExpensesTest.php" method="an_expense_requires_an_amount" scope="Method" />
+    <configuration name="ExpensesTest.a_user_can_create_an_expense_without_attachment" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExpensesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExpensesTest.php" method="a_user_can_create_an_expense_without_attachment" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExpensesTest.model_uses_has_attachments_trait" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExpensesTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExpensesTest.php" method="model_uses_has_attachments_trait" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -165,17 +169,19 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHPUnit.ExpensesTest.a_user_can_create_an_expense_without_attachment" />
+      <item itemvalue="PHPUnit.ExpensesTest.a_user_can_create_an_expense_without_an_attachment" />
+      <item itemvalue="PHPUnit.ExpensesTest.a_file_can_be_attached_on_expenses_creation" />
+      <item itemvalue="PHPUnit.ExpensesTest.model_uses_has_attachments_trait" />
       <item itemvalue="PHPUnit.ExpensesTest" />
-      <item itemvalue="PHPUnit.ExpensesTest.a_user_can_create_an_expense" />
-      <item itemvalue="PHPUnit.ExpensesTest.an_expense_requires_a_name" />
-      <item itemvalue="PHPUnit.ExpensesTest.an_expense_requires_an_amount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.ExpensesTest.a_user_can_create_an_expense" />
-        <item itemvalue="PHPUnit.ExpensesTest.an_expense_requires_an_amount" />
-        <item itemvalue="PHPUnit.ExpensesTest.an_expense_requires_a_name" />
         <item itemvalue="PHPUnit.ExpensesTest" />
+        <item itemvalue="PHPUnit.ExpensesTest.model_uses_has_attachments_trait" />
+        <item itemvalue="PHPUnit.ExpensesTest.a_file_can_be_attached_on_expenses_creation" />
+        <item itemvalue="PHPUnit.ExpensesTest.a_user_can_create_an_expense_without_an_attachment" />
+        <item itemvalue="PHPUnit.ExpensesTest.a_user_can_create_an_expense_without_attachment" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597434742926</updated>
       <workItem from="1597434744654" duration="710000" />
-      <workItem from="1597435494843" duration="18362000" />
+      <workItem from="1597435494843" duration="31775000" />
     </task>
     <servers />
   </component>
@@ -208,33 +214,59 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597436440463" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597494767318">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1229" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597841359468">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1229" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597841359468" />
+    <state x="-1230" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597826565475">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1230" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597826565475" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597494767318" />
-    <state width="1877" height="195" key="GridCell.Tab.0.bottom" timestamp="1597515141978">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom" timestamp="1597861630798">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597436443260" />
-    <state width="1877" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597515141978" />
-    <state width="1877" height="195" key="GridCell.Tab.0.center" timestamp="1597515141978">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597861630798" />
+    <state width="1877" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597519921073" />
+    <state width="1877" height="312" key="GridCell.Tab.0.center" timestamp="1597861630798">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597436443259" />
-    <state width="1877" height="195" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597515141978" />
-    <state width="1877" height="195" key="GridCell.Tab.0.left" timestamp="1597515141978">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597861630798" />
+    <state width="1877" height="195" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597519921073" />
+    <state width="1877" height="312" key="GridCell.Tab.0.left" timestamp="1597861630798">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597436443259" />
-    <state width="1877" height="195" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597515141978" />
-    <state width="1877" height="195" key="GridCell.Tab.0.right" timestamp="1597515141978">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597861630798" />
+    <state width="1877" height="195" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597519921073" />
+    <state width="1877" height="312" key="GridCell.Tab.0.right" timestamp="1597861630798">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597436443260" />
-    <state width="1877" height="195" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597515141978" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597516292515">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597861630798" />
+    <state width="1877" height="195" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597519921073" />
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1597837634670">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597837634670" />
+    <state width="1877" height="340" key="GridCell.Tab.1.center" timestamp="1597837634670">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597837634670" />
+    <state width="1877" height="340" key="GridCell.Tab.1.left" timestamp="1597837634670">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597837634670" />
+    <state width="1877" height="340" key="GridCell.Tab.1.right" timestamp="1597837634670">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597837634670" />
+    <state x="-1304" y="240" key="run.anything.popup" timestamp="1597836566086">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1304" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597836566086" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597860780077">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@-1920.0.1920.1040" timestamp="1597860780077" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3120.0.1200.1880@0.0.1920.1040" timestamp="1597516292515" />
   </component>
   <component name="XDebuggerManager">
@@ -242,7 +274,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/tests/Feature/ExpensesTest.php</url>
-          <line>8</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

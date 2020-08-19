@@ -15,6 +15,10 @@ class CreateAttachmentsTable extends Migration
     {
         Schema::create('attachments', function (Blueprint $table) {
             $table->uuid('id')->primary();
+            $table->string('original_filename');
+            $table->string('filename');
+            $table->foreignUuid('attachable_id');
+            $table->string('attachable_type');
             $table->timestamps();
         });
     }

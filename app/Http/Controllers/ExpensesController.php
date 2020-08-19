@@ -33,10 +33,15 @@ class ExpensesController extends Controller
             'company_id' => 'nullable|required_without:user_id|uuid',
             'due_date' => 'required',
             'paid_on' => 'nullable|date',
-            'files' => 'sometimes|file'
         ]);
 
-        Expense::create($attributes);
+        $expense = Expense::create($attributes);
+
+        if (request()->has('files')) {
+            foreach(request()->files as $attachment) {
+                $expense->attachments()->create($attachment);
+            }
+        }
 
         return redirect('/expenses');
     }
