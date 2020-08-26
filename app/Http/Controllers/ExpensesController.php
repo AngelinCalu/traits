@@ -8,6 +8,15 @@ use App\Models\Expense;
 class ExpensesController extends Controller
 {
     /**
+     * ExpensesController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+
+    /**
      * Display a listing of the resource.
      *
      */
@@ -39,7 +48,7 @@ class ExpensesController extends Controller
 
         if (request()->has('files')) {
             foreach(request()->files as $attachment) {
-                $expense->attachments()->create($attachment);
+                $expense->attach($attachment[0], $attributes->company_id ?? null);
             }
         }
 
